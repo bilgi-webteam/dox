@@ -12,4 +12,8 @@ Lütfen kullanıcı bilgilerinizi de düzenleyin:
 
 # NGINX SSL Konfigürasyonu
 
-@wip
+Örnek [nginx](config/nginx.conf) dosyası `/etc/nginx/nginx.conf` içine eklenecektir. `/path/to/cert/` yerine sertifikaların bulunduğu path'i yazın.
+
+# NGINX Site Konfigürasyonu
+
+Örnek [nginx](config/nginx-site.conf) SSL destekli **statik** sayfa sunmak içindir.
