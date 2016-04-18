@@ -10,6 +10,8 @@ Lütfen kullanıcı bilgilerinizi de düzenleyin:
       name = ADINIZ SOYADINIZ
       email = EPOSTA@ADRESİNİZ
 
+`$HOME` dizininiz altına da [gitignore](config/gitignore)’u `~/.gitignore` şeklinde linkleyin.
+
 # NGINX SSL Konfigürasyonu
 
 Örnek [nginx](config/nginx.conf) dosyası `/etc/nginx/nginx.conf` içine eklenecektir. `/path/to/cert/` yerine sertifikaların bulunduğu path'i yazın.
